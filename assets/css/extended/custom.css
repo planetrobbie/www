@@ -1,0 +1,36 @@
+/* Custom styles added to demo */
+
+.twitter-tweet {
+    margin: auto;
+}
+
+iframe {
+    border-radius: var(--radius) !important;
+}
+
+.home-info ul {
+    padding-inline-start: 20px;
+}
+
+.entry-cover img {
+    border: 1px solid var(--border);
+}
+
+p {
+#  line-height: 32px;   /* within paragraph */
+  margin-bottom: 10px; /* between paragraphs */
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 8%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
