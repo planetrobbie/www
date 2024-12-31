@@ -8,6 +8,7 @@ pagination:
   pagerSize: 8
 theme: PaperMod
 defaultContentLanguage: en
+contentDir:  content
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
