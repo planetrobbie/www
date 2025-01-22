@@ -60,6 +60,7 @@ params:
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
+  ShareButtons: ["linkedin", "reddit", "ycombinator"]
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
