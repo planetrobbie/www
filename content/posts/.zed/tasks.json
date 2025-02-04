@@ -1,0 +1,17 @@
+// Blog task configuration
+[
+    {
+        "label": "Blog: publish",
+        "command": "(cd /home/sebbraun/in/code/w && hugo build -d /home/sebbraun/in/www-yet)",
+        "use_new_terminal": false,
+        "reveal": "always",
+        "allow_concurrent_runs": false
+    },
+    {
+        "label": "Blog: publish locally",
+        "command": "(cd /home/sebbraun/in/code/w && hugo serve --buildFuture)",
+        "use_new_terminal": false,
+        "reveal": "always",
+        "allow_concurrent_runs": false
+    }
+]
